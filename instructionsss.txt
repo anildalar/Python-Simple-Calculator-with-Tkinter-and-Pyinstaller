@@ -1,0 +1,37 @@
+GUI = Graphical User Interface
+
+
+Python Desktop App/Software
+
+Built In GUI Library
+
+Tkinter
+	
+
+https://www.datacamp.com/community/tutorials/gui-tkinter-python
+https://datatofish.com/message-box-python/
+https://docs.python.org/3/library/tkinter.messagebox.html
+https://www.tutorialspoint.com/python/python_gui_programming.htm
+https://www.geeksforgeeks.org/python-tkinter-messagebox-widget/
+
+FPS = Frame Per Second
+
+PAL = 25 FPS
+
+NTSC = 30 FPS
+
+60FPS
+
+What are components?
+1. Widgets / Components
+        buttons
+        lables
+
+
+pip install pyinstaller
+
+pyinstaller --onefile --windowed --add-data 'my.db:.' --add-binary "my.ico;." tk.py
+
+pyinstaller --onefile -w -F --add-binary "my.ico;." my.py
+
+pyinstaller --onefile --windowed calc.py
